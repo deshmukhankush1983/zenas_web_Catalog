@@ -10,4 +10,4 @@ try:
   streamlit.text("Hello from Snowflake:")
   streamlit.text(my_data_row)
 except Exception as  e:
-   streamlit.text("DB connection Error")
+   streamlit.text("DB connection Error "+e)
